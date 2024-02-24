@@ -1,0 +1,56 @@
+body{
+    padding:0;
+    margin:0;
+ background-color:blueviolet;
+}
+.container{
+    display: flex;
+    background-color: rgba(255, 255, 255);
+/* 
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px); */
+    justify-content: center;
+    align-items: center;
+    width:340px;
+    height:300px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:52%;
+    left:50%;
+    border-radius:20px;
+    padding:80px 50px;
+    box-shadow:0 20px 40px rgba(38,33,61,0.2)
+}
+.card{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    position:absolute;
+    top:20%;
+    left:2%;
+}
+.search{
+    width:60%;
+    padding:5px;
+    border:none;
+    outline:none;
+font-size: 1.25rem;
+border-bottom:2px solid blueviolet;
+}
+
+.search-btn{
+   color:white;
+   background-color:black;
+    font-weight:500;
+    border:none;
+    font-size:16px;
+    width: 15%;
+    height: 35px;
+}
+.search-btn:hover{
+   border-radius:10px;
+}
+.info{
+    width:100%;
+
+}
